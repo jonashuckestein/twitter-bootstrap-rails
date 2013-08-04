@@ -213,7 +213,7 @@ If you would like to restore the default Glyphicons, inside the _bootstrap_and_o
 //@import "fontawesome/font-awesome";
 
 /* Glyphicons */
-@import "twbs/bootstrap-glyphicons/bootstrap-glyphicons";
+@import "twbs/bootstrap-glyphicons";
 ```
 
 ## Using Javascripts
@@ -233,11 +233,11 @@ If you want to customize what is loaded, your application.js would look somethin
 ```js
 //= require jquery
 //= require jquery_ujs
-//= require twbs/bootstrap/bootstrap-transition
-//= require twbs/bootstrap/bootstrap-alert
-//= require twbs/bootstrap/bootstrap-modal
-//= require twbs/bootstrap/bootstrap-button
-//= require twbs/bootstrap/bootstrap-collapse
+//= require twbs/bootstrap/transition
+//= require twbs/bootstrap/alert
+//= require twbs/bootstrap/modal
+//= require twbs/bootstrap/button
+//= require twbs/bootstrap/collapse
 ```
 
 ...and so on for each bootstrap js component.
